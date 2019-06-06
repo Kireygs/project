@@ -4,6 +4,7 @@
   <title>ASAA Group</title>
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="stylesheet" href="./css/all.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
 </head>
 <body>
   <section>
@@ -13,23 +14,23 @@
         <nav class="nav">
           <div class="nav__link">
             <span class="nav__line nav__line_active"></span>
-            About us
+              <a href="#aboutus">About us</a>
           </div>
           <div class="nav__link">
             <span class="nav__line"></span>
-            Services
+              <a href="#services">Services</a>
           </div>
           <div class="nav__link">
             <span class="nav__line"></span>
-            Priorities
+              <a href="#priorities">Priorities</a>
           </div>
           <div class="nav__link">
             <span class="nav__line"></span>
-            Career
+              <a href="#careers">Career</a>
           </div>
           <div class="nav__link">
             <span class="nav__line"></span>
-            Contacts
+              <a href="#contacts">Contacts</a>
           </div>
         </nav>
         <div class="header__menu" onclick="toggleMenu();"></div>
@@ -75,11 +76,22 @@
          Our current business drivers are Engineering, IT,
          Construction in various sectors of economics such as energy, infrastructure and finance.
          All of these activities are primarily focused on sustainable development making a good
-         use of new advanced technological solutions in every step of our business.
+         use of new advanced technological solutions in every step of our business
+         <span id="dots">...</span><span id="more">We are a big, cohesive, competitive advantageous, dedicated to bringing energy, ideas and pride to
+              their work team of the best experts in various fields sharing common goals and the way to success.
+              We are bound by common business values which  drive us to developing and improving our services continuously.
+              We are in constant search for the best ideas of science and disciplines, which may improve human life,
+              reduce labour costs in industry and boost labour force. Our main principle lies in developing technologies,
+              which will allow for replacement of human  labour force with software and robots to achieve the maximal
+              efficiency with less cost. Thus, our company can be recognized as developing with a clear outlook and
+              focus on growth. We are open and ready to cooperation anywhere in the world, with any company sharing the
+              same objectives and basic goals. High level of qualification and professionalism of our experts is very
+              important to us since we aim at rendering quality services. Therefore, we extensively invest in training
+              local staff in countries, where our projects are implemented.</span>
      </p>
-      <div class="about__us__more">
-          <img src="img/icons/arrow-down.svg" alt="arrow">
-          <p>More</p>
+      <div class="about__us__more" onclick="readMore()">
+          <img src="img/icons/arrow-down.svg" alt="arrow" id="arrow">
+          <p id="moreText">More</p>
       </div>
   </section>
 
@@ -275,6 +287,8 @@
           <img src="img/icons/instagram.svg" alt="instagram">
       </div>
   </footer>
+
   <script src="js/index.js"></script>
+  <script>window.jQuery || document.write('<script src="lib/jquery-1.11.1.min.js"><\/script>')</script>
 </body>
 </html>
