@@ -6,3 +6,11 @@
     background-color: inherit;
     min-width: 150px;
 }
+
+.btn-subscribe {
+    color: #D6F7FF;
+    font-style: normal;
+    padding: 5px;
+    background: #324C69;
+    border: 2px solid #435F77;
+}
