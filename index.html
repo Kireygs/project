@@ -33,7 +33,9 @@
               <a href="#contacts">Contacts</a>
           </div>
         </nav>
-        <div class="header__menu" onclick="toggleMenu();"></div>
+        <div class="header__menu" onclick="toggleMenu();">
+            <img src="img/icons/menu.svg" alt="menu">
+        </div>
       </div>
     </header>
 
@@ -50,12 +52,24 @@
     </div>
 
     <section class="aside" id="aside">
-      <div class="aside__close" onclick="toggleMenu()"></div>
-      <div class="aside__link">Главная</div>
-      <div class="aside__link">О Нас</div>
-      <div class="aside__link">Услуги</div>
-      <div class="aside__link">Портфолио</div>
-      <div class="aside__link">Цены</div>
+      <div class="aside__close" onclick="toggleMenu()">
+          <img src="img/icons/close.svg" alt="">
+      </div>
+      <div class="aside__link">
+          <a href="#aboutus">About us</a>
+      </div>
+      <div class="aside__link">
+          <a href="#services">Services</a>
+      </div>
+      <div class="aside__link">
+          <a href="#priorities">Priorities</a>
+      </div>
+      <div class="aside__link">
+          <a href="#careers">Career</a>
+      </div>
+      <div class="aside__link">
+          <a href="#contacts">Contacts</a>
+      </div>
     </section>
   </section>
 
@@ -125,7 +139,7 @@
               </div>
           </div>
           <div class="service__circle-block">
-              <span class="service__circle"></span>
+              <span class="service__circle circle__active"></span>
               <span class="service__circle"></span>
               <span class="service__circle"></span>
               <span class="service__circle"></span>

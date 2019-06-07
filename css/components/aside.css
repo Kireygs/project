@@ -1,5 +1,6 @@
 .aside {
-  position: fixed; 
+  position: fixed;
+  z-index: 2;
   top: 30px;
   right: -292px;
   width: 292px;
@@ -21,13 +22,10 @@
   }
 
   .aside__close {
-    position: absolute;
-    top: 16px;
-    right: 16px;
-    width: 40px;
-    height: 40px;
-    background-color: cornflowerblue;
-    cursor: pointer;
+      position: absolute;
+      top: 0;
+      right: 20px;
+      cursor: pointer;
   }
 
 
