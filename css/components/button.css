@@ -2,15 +2,15 @@
     padding: 10px 25px;
     border: 1px solid;
     color: #3F3F3F;
-    font-weight: bold;
     background-color: inherit;
     min-width: 150px;
     cursor: pointer;
 }
 
 .btn_career:hover {
-    background-color: white;
-    color: #000;
+    background: #324C69;
+    border: 1px solid #435F77;
+    color: #D6F7FF;
 }
 
 .btn-subscribe {

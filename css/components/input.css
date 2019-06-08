@@ -1,14 +1,14 @@
 .input__career {
     padding: 12px 80px 12px 15px;
     border: 1px solid;
-    width: 75%;
+    width: 100%;
     max-width: 315px;
     background-color: inherit;
 }
 
 .textarea__career {
     height: 80px;
-    width: 75%;
+    width: 100%;
     max-width: 315px;
     background-color: inherit;
     border: 1px solid;

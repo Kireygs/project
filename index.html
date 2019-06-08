@@ -9,7 +9,9 @@
 <body>
   <section>
     <header class="header main-container">
-      <div class="header__logo"></div>
+      <div class="header__logo">
+          <img src="img/logo/logo.jpg" alt="logo">
+      </div>
       <div class="header__container">
         <nav class="nav">
           <div class="nav__link">
@@ -139,10 +141,10 @@
               </div>
           </div>
           <div class="service__circle-block">
-              <span class="service__circle circle__active"></span>
-              <span class="service__circle"></span>
-              <span class="service__circle"></span>
-              <span class="service__circle"></span>
+              <span class="service__circle" id="first" onclick="openService()"></span>
+              <span class="service__circle" id="second" onclick="openService()"></span>
+              <span class="service__circle" id="third" onclick="openService()"></span>
+              <span class="service__circle" id="fourth" onclick="openService()"></span>
           </div>
       </div>
   </section>
@@ -199,14 +201,10 @@
           <div class="careers-center">
               <div class="career-block">
                   <h3>Fill out the simple form</h3>
-                  <label for="name">Full name</label>
                   <input class="input__career" type="text" placeholder="Full name...">
-                  <label for="email">E-mail</label>
                   <input class="input__career" type="text" placeholder="E-mail...">
-                  <label for="file">CV</label>
-                  <button class="btn_career">Click to upload</button>
-                  <label for="message">Your message</label>
-                  <textarea class="textarea__career" name="career" id="career" cols="30" rows="10"></textarea>
+                  <button class="btn_career">Click to upload your CV</button>
+                  <textarea class="textarea__career" name="career" id="career" cols="30" rows="10" placeholder="Your message"></textarea>
                   <button class="btn_career">Send</button>
               </div>
           </div>
@@ -289,11 +287,16 @@
   </section>
 
   <footer class="footer">
-      <div class="header__logo"></div>
+      <div class="footer__logo">
+          <img src="img/logo/logo.jpg" alt="logo">
+      </div>
       <div class="footer__copyright">
           <p>© 2019 All rights reserved</p>
           <span>Developed by</span>
-          <img src="img/logo/logo-deusdev.svg" alt="deusdev">
+          <a href="deusdev.kz">
+              <img src="img/logo/logo-deusdev.svg" alt="deusdev">
+          </a>
+
       </div>
       <div>
           <img src="img/icons/mail.svg" alt="mail">

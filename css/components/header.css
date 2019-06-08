@@ -8,13 +8,15 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  background-color: rgba(50, 76, 105, 0.5);
+  background-color: #435B76;
 }
 
   .header__logo {
-    width: 70px;
-    height: 70px;
-    background-color: #e7e7e7;
+      margin: 5px 0 0 -40px;
+  }
+
+  .header__logo img {
+      width: 170px;
   }
 
   .header__container {

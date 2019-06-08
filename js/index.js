@@ -61,3 +61,16 @@ $(document).ready(function(){
     });
 });
 
+function openService() {
+    var span = getElement("span");
+    var length = first.classList.length;
+    if(length === 1) {
+        first.classList.add("circle__active");
+    } else {
+        first.classList.remove("circle__active");
+    }
+}
+
+
+
+
