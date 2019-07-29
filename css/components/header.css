@@ -27,14 +27,6 @@
     display: none;
   }
 
-  @media screen and (max-width: 768px) {
-    .header__menu {
-      display: block;
-    }
-  }
 
 
-/* 1200 960 768 450 */
 
-
-/* absolute fixed  */

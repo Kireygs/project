@@ -2,13 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9168c665-3b09-4aba-b6f6-9776cdfcb67e" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/css/components/button.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/components/button.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/css/components/adaptive.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/all.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/all.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/css/components/common.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/components/common.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/css/components/header.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/components/header.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/components/input.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/components/input.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/new.html" beforeDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -24,10 +22,12 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="155">
-              <caret line="120" column="45" selection-start-line="120" selection-start-column="45" selection-end-line="120" selection-end-column="45" />
+            <state relative-caret-position="1900">
+              <caret line="148" column="6" selection-start-line="148" selection-start-column="6" selection-end-line="148" selection-end-column="12" />
               <folding>
                 <element signature="n#section#1;n#body#0;n#html#0;n#!!top" />
+                <element signature="n#div#0;n#div#1;n#section#2;n#body#0;n#html#0;n#!!top" />
+                <element signature="n#div#1;n#div#1;n#section#2;n#body#0;n#html#0;n#!!top" />
                 <element signature="n#section#3;n#body#0;n#html#0;n#!!top" />
                 <element signature="n#section#4;n#body#0;n#html#0;n#!!top" />
                 <element signature="n#style#0;n#div#0;n#div#1;n#section#5;n#body#0;n#html#0;n#!!top" expanded="true" />
@@ -37,10 +37,10 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/js/index.js">
+        <entry file="file://$PROJECT_DIR$/css/components/common.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="285">
-              <caret line="72" lean-forward="true" selection-start-line="72" selection-end-line="72" />
+            <state relative-caret-position="197">
+              <caret line="230" column="21" selection-start-line="230" selection-start-column="21" selection-end-line="230" selection-end-column="21" />
             </state>
           </provider>
         </entry>
@@ -71,12 +71,13 @@
       <find>priori</find>
       <find>more</find>
       <find>header__m</find>
-      <find>circle</find>
       <find>CV</find>
       <find>about__us</find>
       <find>hover</find>
       <find>header__l</find>
+      <find>priorit</find>
       <find>service</find>
+      <find>circle</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -88,15 +89,16 @@
         <option value="$PROJECT_DIR$/css/vendor/fonts.css" />
         <option value="$PROJECT_DIR$/css/components/nav.css" />
         <option value="$PROJECT_DIR$/css/vendor/reset.css" />
-        <option value="$PROJECT_DIR$/css/all.css" />
         <option value="$PROJECT_DIR$/css/components/footer.css" />
         <option value="$PROJECT_DIR$/css/components/aside.css" />
         <option value="$PROJECT_DIR$/css/components/input.css" />
         <option value="$PROJECT_DIR$/css/components/button.css" />
-        <option value="$PROJECT_DIR$/css/components/common.css" />
-        <option value="$PROJECT_DIR$/css/components/header.css" />
-        <option value="$PROJECT_DIR$/index.html" />
         <option value="$PROJECT_DIR$/js/index.js" />
+        <option value="$PROJECT_DIR$/css/all.css" />
+        <option value="$PROJECT_DIR$/css/components/header.css" />
+        <option value="$PROJECT_DIR$/css/components/adaptive.css" />
+        <option value="$PROJECT_DIR$/index.html" />
+        <option value="$PROJECT_DIR$/css/components/common.css" />
       </list>
     </option>
   </component>
@@ -110,7 +112,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -121,23 +122,25 @@
             <path>
               <item name="Asa group" type="b2602c69:ProjectViewProjectNode" />
               <item name="Asa group" type="462c0819:PsiDirectoryNode" />
-              <item name="img" type="462c0819:PsiDirectoryNode" />
+              <item name="css" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="Asa group" type="b2602c69:ProjectViewProjectNode" />
               <item name="Asa group" type="462c0819:PsiDirectoryNode" />
-              <item name="img" type="462c0819:PsiDirectoryNode" />
-              <item name="bg" type="462c0819:PsiDirectoryNode" />
+              <item name="css" type="462c0819:PsiDirectoryNode" />
+              <item name="components" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="Asa group" type="b2602c69:ProjectViewProjectNode" />
               <item name="Asa group" type="462c0819:PsiDirectoryNode" />
-              <item name="js" type="462c0819:PsiDirectoryNode" />
+              <item name="css" type="462c0819:PsiDirectoryNode" />
+              <item name="vendor" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -173,7 +176,10 @@
       <workItem from="1559582546500" duration="4717000" />
       <workItem from="1559671436476" duration="5167000" />
       <workItem from="1559833208327" duration="578000" />
-      <workItem from="1559839546778" duration="13312000" />
+      <workItem from="1559839546778" duration="15029000" />
+      <workItem from="1560190545896" duration="300000" />
+      <workItem from="1546300874154" duration="127000" />
+      <workItem from="1560764555290" duration="9000" />
     </task>
     <task id="LOCAL-00001" summary="1">
       <created>1559686294811</created>
@@ -203,17 +209,23 @@
       <option name="project" value="LOCAL" />
       <updated>1559918442496</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="lastOne">
+      <created>1559988831616</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1559988831616</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="34123000" />
+    <option name="totallyTimeSpent" value="36276000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1280" height="800" extended-state="0" />
-    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.223193" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.223193" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -225,7 +237,7 @@
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="8" />
-      <window_info anchor="bottom" id="Terminal" order="9" visible="true" weight="0.32956153" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="9" visible="true" weight="0.32956153" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -258,7 +270,8 @@
     <MESSAGE value="1" />
     <MESSAGE value="design not Adaptive" />
     <MESSAGE value="last" />
-    <option name="LAST_COMMIT_MESSAGE" value="last" />
+    <MESSAGE value="lastOne" />
+    <option name="LAST_COMMIT_MESSAGE" value="lastOne" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/Roboto/Roboto-Regular.ttf">
@@ -278,16 +291,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/css/all.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="12" selection-start-line="12" selection-end-line="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/new.html">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
+    <entry file="file://$PROJECT_DIR$/new.html" />
     <entry file="file://$PROJECT_DIR$/css/components/aside.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="289">
@@ -316,24 +320,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/css/components/common.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="214">
-          <caret line="274" column="23" selection-start-line="274" selection-start-column="18" selection-end-line="274" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/css/components/footer.css">
       <provider selected="true" editor-type-id="text-editor">
         <state>
           <caret column="1" selection-start-column="1" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/css/components/header.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="249">
-          <caret line="18" column="18" selection-start-line="18" selection-start-column="18" selection-end-line="18" selection-end-column="18" />
         </state>
       </provider>
     </entry>
@@ -347,12 +337,42 @@
     <entry file="file://$PROJECT_DIR$/img/bg/service.png">
       <provider selected="true" editor-type-id="images" />
     </entry>
+    <entry file="file://$PROJECT_DIR$/js/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="72" lean-forward="true" selection-start-line="72" selection-end-line="72" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/all.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="12" column="38" selection-start-line="12" selection-start-column="38" selection-end-line="12" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/components/adaptive.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1660">
+          <caret line="83" column="4" selection-start-line="83" selection-start-column="4" selection-end-line="83" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/components/header.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="247">
+          <caret line="29" selection-start-line="29" selection-end-line="29" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="155">
-          <caret line="120" column="45" selection-start-line="120" selection-start-column="45" selection-end-line="120" selection-end-column="45" />
+        <state relative-caret-position="1900">
+          <caret line="148" column="6" selection-start-line="148" selection-start-column="6" selection-end-line="148" selection-end-column="12" />
           <folding>
             <element signature="n#section#1;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#div#0;n#div#1;n#section#2;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#div#1;n#div#1;n#section#2;n#body#0;n#html#0;n#!!top" />
             <element signature="n#section#3;n#body#0;n#html#0;n#!!top" />
             <element signature="n#section#4;n#body#0;n#html#0;n#!!top" />
             <element signature="n#style#0;n#div#0;n#div#1;n#section#5;n#body#0;n#html#0;n#!!top" expanded="true" />
@@ -360,10 +380,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/js/index.js">
+    <entry file="file://$PROJECT_DIR$/css/components/common.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="72" lean-forward="true" selection-start-line="72" selection-end-line="72" />
+        <state relative-caret-position="197">
+          <caret line="230" column="21" selection-start-line="230" selection-start-column="21" selection-end-line="230" selection-end-column="21" />
         </state>
       </provider>
     </entry>
